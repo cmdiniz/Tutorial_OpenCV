@@ -6,7 +6,7 @@ import os # importa classe os
 nomeScript = 'captura_video'
 dtFrame = 0.5 # em segundos
 dtVideo = 100 # em segundos
-diretorio = 'frames'
+diretorio = '../Arquivos/teste'
 contadorFrames = 0
 tempoInicial = 0
 tempoFrame = 0
