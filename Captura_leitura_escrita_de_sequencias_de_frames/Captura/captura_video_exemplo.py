@@ -14,10 +14,10 @@ tempoFrame = 0
 
 def inicializa():
     global tempoInicial, dtVideo, dtFrame, diretorio
-    #dtVideo = float(input("Tempo do video em segundos:"))
-    #dtFrame = float(input("Período de amostragem dos frames em segundos:"))
-    #diretorio = input("diretorio:")
-    indexCamera = 0#int(input("index da camera:"))
+    dtVideo = float(input("Tempo do video em segundos:"))
+    dtFrame = float(input("Período de amostragem dos frames em segundos:"))
+    diretorio = input("diretorio:")
+    indexCamera = int(input("index da camera:"))
 
     if not os.path.exists(diretorio):
         os.mkdir(diretorio) # cria diretorio
