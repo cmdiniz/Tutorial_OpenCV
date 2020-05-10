@@ -2,7 +2,7 @@ import cv2 # importa OpenCV
 
 cap = cv2.VideoCapture(-1) # cria objeto da classe VideoCapture
 
-while(True): # tempo especificado para o vídeo já foi atingido? 
+while(True): # laço infinito
 
     ret, frame = cap.read() # captura o frame
         
